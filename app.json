@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "CatChaser",
+    "slug": "catchaser",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.idkmyname2.catchaser"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.idkmyname2.catchaser"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09a6ad8e-78a0-43fc-ae23-29792c3dc146"
+      }
+    },
+    "owner": "idkmyname-2",
+    "updates": {
+      "url": "https://u.expo.dev/09a6ad8e-78a0-43fc-ae23-29792c3dc146"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
